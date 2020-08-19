@@ -6,7 +6,8 @@
   "scripts": {
     "test": "tsc",
     "start": "next start",
-    "dev": "next"
+    "dev": "next",
+    "build": "next build"
   },
   "repository": {
     "type": "git",
