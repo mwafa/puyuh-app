@@ -1,12 +1,4 @@
-import {
-  Text,
-  Flex,
-  Heading,
-  theme,
-  Divider,
-  Button,
-  Link,
-} from "@chakra-ui/core"
+import { Text, Flex, Heading, theme, Link } from "@chakra-ui/core"
 
 const Index: React.FC = () => {
   const { teal } = theme.colors

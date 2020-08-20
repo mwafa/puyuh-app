@@ -1,6 +1,7 @@
 import NextApp from "next/app"
 import Head from "next/head"
 import { ThemeProvider, CSSReset } from "@chakra-ui/core"
+import { ContainerBody } from "../components/Container"
 
 export default class MyApp extends NextApp {
   render() {
@@ -11,7 +12,9 @@ export default class MyApp extends NextApp {
         <Head>
           <title>Puyuh App</title>
         </Head>
-        <Component {...pageProps} />
+        <ContainerBody>
+          <Component {...pageProps} />
+        </ContainerBody>
       </ThemeProvider>
     )
   }

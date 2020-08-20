@@ -1,7 +1,7 @@
 import { ISchedule, ICageCondition, ITask } from "../interface/datas/ISchedule"
 import { LANG } from "./lang"
 
-const lang = LANG.ID
+const lang = LANG
 
 // Kind of Cage Condition
 const normalCage: ICageCondition = {

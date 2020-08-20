@@ -1,5 +1,10 @@
-export const LANG = {
+const LANGS = {
   ID: {
+    components: {
+      current_environmet: "Kondisi kandang",
+      day_now: (d: string | number) => `Hari ke-${d}`,
+      day_less: (d: string | number) => `${d} hari lagi`,
+    },
     alerts: {
       dont_open: "Pintu Penetasan jangan dibuka",
       let_quail_healt: "Biarkan semua menteas dengan sempurna",
@@ -14,3 +19,5 @@ export const LANG = {
     },
   },
 }
+
+export const LANG = LANGS.ID
